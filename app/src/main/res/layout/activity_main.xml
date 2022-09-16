@@ -71,7 +71,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2.5"
+            android:layout_weight="2"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -83,6 +83,15 @@
                 android:text="Let's start"
                 android:textSize="20sp" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Đặng Thị Anh Vy - 2050531200361"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </LinearLayout>
